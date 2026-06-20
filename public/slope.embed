@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slope</title>
+  <title>Slope 3</title>
   <style>
     html, body {
       width: 100%;
@@ -24,8 +24,8 @@
 <body>
   <iframe 
     id="iframehtml5" 
-    title="Slope" 
-    src="https://game.azgame.io/slope/" 
+    title="Slope 3" 
+    src="https://game.azgame.io/slope-3/" 
     allowfullscreen="true" 
     scrolling="no"
     allow="autoplay; fullscreen; gamepad; keyboard-map *; accelerometer; gyroscope; clipboard-write; web-share; magnetometer; camera; focus-without-user-activation *; monetization; xr-spatial-tracking; display-capture"

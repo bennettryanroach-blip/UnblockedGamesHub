@@ -72,15 +72,15 @@
     "popular": true
   },
   {
-    "id": "slope",
-    "title": "Slope",
-    "description": "Jump straight into reflex challenges in this widely popular 3D endless runner. Control a rolling ball going down a neon-colored slope filled with obstacles and sudden drops.",
+    "id": "slope-3",
+    "title": "Slope 3",
+    "description": "An iconic 3D endless running game that offers high speed, sharp reflexes, and endless neon excitement. Control a rapid red ball as you dodge obstacles, maneuver sudden turns, and shatter records on a dynamic sloped course!",
     "category": "Adventure",
     "iframeUrl": "/slope.embed",
     "author": "AzGames.io",
-    "emoji": "🟢",
-    "instructions": "Keep your ball rolling on the narrow platforms and steer clear of the red hazard blocks. Relies on micro-corrections as the roll speed continuously accelerates.",
-    "controls": ["A / D or Left/Right Arrow Keys - Steer Ball"],
+    "emoji": "🔴",
+    "instructions": "Steer the rolling ball safely down the course. Avoid falling off the edges, hitting red obstacles, or touching lasers. The longer you survive, the faster you go!",
+    "controls": ["Left / Right Arrow Keys or A / D - Steer Ball"],
     "popular": true
   }
 ]
