@@ -70,5 +70,17 @@
     "instructions": "Touch or Click and hold to prepare your crouch. Release to fly high. Touch or Click and hold while airborne to flip, and release at the perfect time to stick a perfect landing on the targeted platform.",
     "controls": ["Mouse Click / Hold - Prepare Jump / Start Flipping", "Mouse Release - Launch / Land Upright"],
     "popular": true
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "Jump straight into reflex challenges in this widely popular 3D endless runner. Control a rolling ball going down a neon-colored slope filled with obstacles and sudden drops.",
+    "category": "Adventure",
+    "iframeUrl": "/slope.embed",
+    "author": "AzGames.io",
+    "emoji": "🟢",
+    "instructions": "Keep your ball rolling on the narrow platforms and steer clear of the red hazard blocks. Relies on micro-corrections as the roll speed continuously accelerates.",
+    "controls": ["A / D or Left/Right Arrow Keys - Steer Ball"],
+    "popular": true
   }
 ]

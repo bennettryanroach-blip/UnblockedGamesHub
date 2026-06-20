@@ -26,6 +26,14 @@ import { motion, AnimatePresence } from "motion/react";
 import gamesData from "./games.json";
 import { Game } from "./types";
 
+const getResolvedUrl = (url: string | undefined): string => {
+  if (!url) return "about:blank";
+  if (url.startsWith("/")) {
+    return "." + url;
+  }
+  return url;
+};
+
 export default function App() {
   const [games, setGames] = useState<Game[]>([]);
   const [favorites, setFavorites] = useState<string[]>([]);
@@ -189,7 +197,7 @@ export default function App() {
     setView("play");
     setTimeout(() => {
       if (iframeRef.current) {
-        iframeRef.current.src = game.iframeUrl;
+        iframeRef.current.src = getResolvedUrl(game.iframeUrl);
       }
     }, 50);
   };
@@ -710,7 +718,7 @@ export default function App() {
                 {/* Main Game Sandbox Iframe */}
                 <iframe 
                   ref={iframeRef}
-                  src={activeGame?.iframeUrl || "about:blank"}
+                  src={getResolvedUrl(activeGame?.iframeUrl)}
                   className="w-full h-full min-h-[420px] sm:min-h-[480px] lg:min-h-[510px] border-0 outline-none select-none bg-black relative z-10"
                   referrerPolicy="no-referrer"
                   allowFullScreen
