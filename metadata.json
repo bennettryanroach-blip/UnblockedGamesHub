@@ -1,0 +1,6 @@
+{
+  "name": "Unlocked Games Hub",
+  "description": "An elegant, ad-free unlocked games portal featuring curated classic and arcade HTML5 games embedded in full-featured responsive containers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "flappybird",
+    "title": "Flappy Bird Classic",
+    "description": "Flap your wings, avoid the tall pipes, and compete for the high score in this addictive 8-bit retro arcade hit.",
+    "category": "Arcade",
+    "iframeUrl": "https://nebez.github.io/floppybird/",
+    "author": "Dong Nguyen (Port by Nebez)",
+    "emoji": "🐦",
+    "instructions": "Guide the little bird through the gaps in the green pipes without contacting them. Tap or click at just the right times to counter gravity.",
+    "controls": ["Spacebar / Click / Tap - Flap Wings", "F - Toggle Fullscreen"],
+    "popular": false
+  },
+  {
+    "id": "golfhit",
+    "title": "Golf Hit Classic",
+    "description": "A delightful vector physics-based 2D golf launch challenge. Power up your drive and sink the ball in minimal strokes!",
+    "category": "Skill",
+    "iframeUrl": "/golf-hit.embed",
+    "author": "Classic Arcade",
+    "emoji": "⛳",
+    "instructions": "Click and drag backward from the golf ball to target coordinates and wind power, then release to launch. Avoid the tall sand hazards and bounce off barriers directly into the flag cup!",
+    "controls": ["Left Mouse Drag - Aim Shot & Launch Power", "R Key - Reset Current Hole", "M Key - Toggle Retro Music Sound FX"],
+    "popular": true
+  },
+  {
+    "id": "runawaytoad",
+    "title": "Runaway Toad",
+    "description": "Help Toad hop to safety in this gorgeous action adventure. Jump across swamp rocks, eat bugs, and escape the princess!",
+    "category": "Survival",
+    "iframeUrl": "/runaway-toad.embed",
+    "author": "Niv Fisher, Alon Shama & Nina Limarev",
+    "emoji": "🐸",
+    "instructions": "Click / tap and hold to charge a jump. Release to hop. Watch the arc/meter carefully. Click or tap to catch files in mid-air.",
+    "controls": ["Mouse drag & Hold - Charge jump path", "Mouse Click / Tap - Catch and eat flies"],
+    "popular": true
+  },
+  {
+    "id": "driftrush",
+    "title": "Drift Rush",
+    "description": "Rev your engine, rush the tracks, and perform spectacular drifts in this high-octane 3D car simulator. Customize your dream ride and master every corner!",
+    "category": "Racing",
+    "iframeUrl": "/drift-rush.embed",
+    "author": "AzGames.io",
+    "emoji": "🏎️",
+    "instructions": "Drive your car on virtual tracks and perform stylish drifts. Maintain throttle control and counter-steering to score highest combo chains and win rewards.",
+    "controls": ["Arrow Keys / WASD - Drive & Steer", "Spacebar - Handbrake Drift"],
+    "popular": true
+  },
+  {
+    "id": "sloperider",
+    "title": "Slope Rider",
+    "description": "Steer your sled skillfully through dynamic snowy slopes in an endless winter wonderland. Evade pine trees, dropping ice, and rolling snowballs to survive as long as possible!",
+    "category": "Skill",
+    "iframeUrl": "/slope-rider.embed",
+    "author": "AzGames.io",
+    "emoji": "🛷",
+    "instructions": "Navigate your sled down the endlessly steep slopes. Steer left or right to avoid heavy obstacles, drop ice, and trees, while collecting gift boxes to unlock custom sleds.",
+    "controls": ["Arrow Keys / WASD - Steer Sled", "Up-Arrow Key - Sled Jump"],
+    "popular": true
+  },
+  {
+    "id": "wackyflip",
+    "title": "Wacky Flip",
+    "description": "Combine parkour gymnastics and crazy ragdoll physics to complete spectacular stunt-based backflips and landings in diverse urban settings.",
+    "category": "Casual",
+    "iframeUrl": "/wacky-flip.embed",
+    "author": "AzGames.io",
+    "emoji": "🤸",
+    "instructions": "Touch or Click and hold to prepare your crouch. Release to fly high. Touch or Click and hold while airborne to flip, and release at the perfect time to stick a perfect landing on the targeted platform.",
+    "controls": ["Mouse Click / Hold - Prepare Jump / Start Flipping", "Mouse Release - Launch / Land Upright"],
+    "popular": true
+  }
+]
